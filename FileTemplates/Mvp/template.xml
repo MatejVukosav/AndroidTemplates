@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="2"
+    name="Mvp"
+    description="Creates a new Android MVP template files."
+    >
+
+   <category value="MVP" />
+
+
+ <parameter
+        id="NAME"
+        name="Class name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MyActivity"
+        help = "The name of the activity class to create"
+         />
+
+ <parameter
+        id="includeLayout"
+        name="Create layout XML?"
+        type="boolean"
+        default="true"
+        help="Generate a layout XML for the activity" />
+
+  <parameter
+        id="useDagger"
+        name="Use Dagger2?"
+        type="boolean"
+        default="true"
+        help="Generate dagger data" />
+
+  <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default = "com.vuki.android"
+        />
+        
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
