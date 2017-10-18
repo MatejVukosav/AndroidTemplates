@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<template
+    format="1"
+    revision="1"
+    name="Dagger2"
+    description="Creates a new Dagger2 template files."
+    >
+
+   <category value="AACustom" />
+
+
+</template>

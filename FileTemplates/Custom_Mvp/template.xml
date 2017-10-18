@@ -6,7 +6,7 @@
     description="Creates a new Android MVP template files."
     >
 
-   <category value="MVP" />
+   <category value="AACustom" />
 
 
  <parameter
